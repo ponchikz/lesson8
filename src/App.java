@@ -3,6 +3,7 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.Random;
+
 public class App extends JFrame {
     private final static String TEXT = "Рандомный номер";
     int num = 0;
@@ -43,6 +44,8 @@ public class App extends JFrame {
             stringBuilder.append(random.nextInt(10));
         }
         return stringBuilder.toString();
+
     }
 }
+
 
