@@ -5,7 +5,6 @@ import java.awt.event.ActionListener;
 import java.util.Random;
 
 public class App extends JFrame {
-
     private final static String TEXT = "Рандомный номер";
     int num = 0;
 
@@ -34,10 +33,8 @@ public class App extends JFrame {
         add(jTextField, BorderLayout.CENTER);
         add(jButton, BorderLayout.SOUTH);
 
-
         setVisible(true);
     }
-
     private String generateNumber() {
         Random random = new Random();
         StringBuilder stringBuilder = new StringBuilder();
@@ -48,7 +45,7 @@ public class App extends JFrame {
         }
         return stringBuilder.toString();
 
-
     }
-
 }
+
+
